@@ -26,12 +26,4 @@
 * Time series/geospatial analytics.
 * Real time application for data analytics.
 * Live working HTML templates.
-* Any software application that needs backend DB. (Dynamic web-apps/Mobile/Desktop Apps)
-
-### Screenshots
-![](/Assets/screenshots/index_ss.JPG)
-![](/Assets/screenshots/create_ss.JPG)
-![](/Assets/screenshots/retrieve_ss.JPG)
-![](/Assets/screenshots/update_ss.JPG)
-![](/Assets/screenshots/delete_ss.JPG)
-![](/Assets/screenshots/db_ss.JPG)
+* Any software application that needs backend DB. (Dynamic web-apps/Mobile/Desktop Apps
