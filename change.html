@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>HR_DASHBOARD</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width = device-width, initial-scale = 1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://login2explore.com/jpdb/resources/js/0.0.4/jpdb-commons.js"></script>
+        <script src="resources/js/common.js"></script>
+        <script src="resources/js/change.js"></script>
+        <script>
+            var myStatus = "in";
+            checkSession();
+        </script>
+        <link rel="stylesheet" href="resources/css/style.css">
+    </head>
+    <body>
+        <div style="text-align: right; font-size: medium; color: blue;" id="loginId"></div>
+       <div class="EmbedHeader"></div>
+        <div class="container">
+            <form class="form-horizontal" style="padding-top: 18px">
+                <div class="form-group">
+                    <label class="control-label col-md-3" style="font-size: 18px">Old-Password: </label>
+                    <div class="col-md-6">
+                        <input type="password" class="form-control" id="oldPassword">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3" style="font-size: 18px">New Password: </label>
+                    <div class="col-md-6">
+                        <input type="password" class="form-control" id="newPassword">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="control-label col-md-3" style="font-size: 18px">Retype Password: </label>
+                    <div class="col-md-6">
+                        <input type="password" class="form-control" id="retypePassword">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-md-3 col-md-offset-3">
+                        <button type="button" class="btn btn-primary" onClick=changePassword()>Save</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+       <div class="EmbedFooter"></div>
+       
+       <script>
+         loadHeader("#change");
+         loadFooter();
+        
+       </script>
+    </body>
+</html>
